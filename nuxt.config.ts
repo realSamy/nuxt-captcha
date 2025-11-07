@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     // turnstile: {
     //   addValidateEndpoint: true,
     // },
+    colorMode: {
+        preference: 'light',
+        fallback: 'light',
+    },
 
     ssr: false,
     hooks: {
