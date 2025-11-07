@@ -2,6 +2,11 @@
   <NuxtPage/>
 </template>
 
+<script setup lang="ts">
+definePageMeta({
+  colorMode: 'light',
+})
+</script>
 <style>
 @reference "~/assets/css/main.css";
 
