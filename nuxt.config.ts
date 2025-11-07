@@ -4,7 +4,7 @@ import * as process from "node:process";
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: {enabled: true},
-    modules: ['@nuxtjs/turnstile', '@nuxt/ui'],
+    modules: ['@nuxtjs/turnstile', '@nuxt/ui', '@nuxtjs/color-mode'],
     css: ['~/assets/css/main.css'],
     // turnstile: {
     //   addValidateEndpoint: true,
