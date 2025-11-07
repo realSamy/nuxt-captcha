@@ -10,8 +10,14 @@ export default defineNuxtConfig({
     //   addValidateEndpoint: true,
     // },
     colorMode: {
+        classSuffix: '',
+        default: 'light',
         preference: 'light',
         fallback: 'light',
+        hid: 'nuxt-color-mode-script',
+        globalName: '__NUXT_COLOR_MODE__',
+        componentName: 'ColorScheme',
+        noScript: false
     },
 
     ssr: false,
